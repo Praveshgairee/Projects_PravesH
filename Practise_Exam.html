@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practise</title>
+        <link rel="icon" href="">
+        <style>
+            table,th,td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            td{
+                background-color: aqua;
+            }
+            input,textarea,select,button{
+                background-color: rgb(231, 231, 42);
+            }
+        </style>
+    </head>
+    <body style="background-color:aquamarine;">
+        <form action="get">
+            <table>
+                <caption>Regitration Form</caption>
+                <tr>
+                    <th>Enter your First Name</th>
+                    <td><input type="text" size="25" maxlength="25" name=" first name" placeholder="Enter first name"></td>
+
+                </tr>
+                <tr>
+                    <th>Enter your Last name</th>
+                    <td><input type="text" size="25" maxlength="25" name="last name" placeholder="Enter last name"></td>
+                </tr>
+                <tr>
+                    <th>Enter your Password</th>
+                    <td><input type="password" size="20" maxlength=" 10" name="password" placeholder="Password"></td>
+                </tr>
+                <tr>
+                    <th>Re-enter your Password</th>
+                    <td><input type="password" size="20" maxlength=" 10" name="password" placeholder="Password"></td>
+                </tr>
+                <tr>
+                    <th>Enter your Email</th>
+                    <td><input type="email" size="25" maxlength="25" name="email" placeholder="Enter new Email"></td>
+                </tr>
+                <tr>
+                    <th>Enter your Mobile no.</th>
+                    <td><input type="text" size="25" maxlength="10" name="number" placeholder="Enter valid number"></td>
+                </tr>
+                <tr>
+                    <th>Enter your Address</th>
+                    <td><textarea name="address"  cols="17" rows="6"></textarea></td>
+                </tr>
+                <tr>
+                    <th>Select your gender</th>
+                    <td>
+                        <input type="radio" name="gender" id="male" value="male">Male
+                        <input type="radio" name="gender" id="female" value="female">Female
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <th>Select your hobby</th>
+                    <td>
+                        <input  type="checkbox"  id="Hobby1" name="hobby" value="hobby1">hobby1
+                        <input type="checkbox"  id="hobby2" name="hobby" value="hobby2">hobby2
+                        <input type="checkbox" id="hobby3" name="hobby" value="hobby3">hobby3
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>Select your DOB</th>
+                    <td><input type="text" size="25" maxlength="10" placeholder="mm-dd-yyyy" style="text-align: center;"></td>
+                </tr>
+                <tr>
+                    <th>Select your country</th>
+                    <td>
+                        <select name="country" style="width: 180px;"> 
+                            <option value="A0">Nepal</option>
+                            <option value="A1">India</option>
+                            <option value="A2">China</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Upload your pic</th>
+                    <td><input type="file" name="picture" value="picture"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Save my Data">
+                        <input type="reset" value="Reset Data">
+                    </td>
+                    
+                </tr>
+
+
+            </table>
+        </form>
+    </body>
+    
+</html>
